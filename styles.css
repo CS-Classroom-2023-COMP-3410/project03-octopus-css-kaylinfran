@@ -1,0 +1,119 @@
+
+/* adjusting body style */
+body{
+    font-family: Arial;
+    background-color: rgb(243, 242, 242);
+    line-height: 1;
+}
+
+/* making header blue with white text and centering it */
+#header {
+    background-color: rgb(32, 114, 239);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 0.5;
+}
+
+/* adding padding to make text slightly indented  */
+#main-content {
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* making h2 and h3 uppercase */
+#main-content h2 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+#main-content h3 {
+    text-transform: uppercase;
+}
+
+/* making space smaller  */
+#main-content p {
+    line-height: .1;
+}
+
+/* changing spacing for the unordered list  */
+#main-content ul {
+    line-height: 1.5;
+}
+
+/* Grabbing the class important to change text color of "mantle" to red  */
+.important {
+    color: orangered;
+    font-weight: bold;
+}
+
+/* adding 15px padding to top of h5 header  */
+#main-content h5 {
+    padding: 15px 0px 0px 0px; 
+}
+
+/* changing spacing for ordered list */
+#main-content ol {
+    line-height: 1.5;
+    padding-bottom: 2px;
+    font-size: 15px;
+}
+
+/* adjusting header 6 */
+#main-content h6 {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* changing box around quiz section */
+#quiz-section {
+    background-color: rgb(218, 237, 243);
+    border: 1px solid lightgray;
+    padding: 5px 70px 20px 15px;
+    margin-top: 10px;
+}
+
+/* adjusting image of octopus image */
+.octopus-image {
+    outline: 4px solid rgb(128, 21, 181); /* adding purple border */
+    float: right;
+    margin-top: 35px;
+    width: 80px;
+    height: 80px;
+}
+
+/* adjusting height of quiz form lines */
+.quiz-form {
+    line-height: 25px;
+}
+
+/* putting header right above the species table  */
+#species-table h2 {
+    margin-bottom: 0px;
+}
+
+/* changing the spacing inside the table data and header cells */
+#species-table td, th{
+    padding: 5px;
+}
+
+/* changing background color to a dark grey  */
+.table-header {
+    background-color: rgb(160, 160, 160);
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+/* adjusting footer style */
+#footer {
+    background-color: lightgrey;
+    text-align: center;
+    padding-top: 10px;
+    padding: 1px 10px 1px 10px;
+    font-size: 15px;
+    margin-top: 30px; /* moving footer down further */
+    margin-bottom: 30px; /* adding space at bottom of footer */
+}
